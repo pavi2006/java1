@@ -1,0 +1,9 @@
+public class SubstringExample {
+    public static void main(String[] args) {
+        String str = "Hello, world!";
+        String subStr = str.substring(7); 
+        String subStr2 = str.substring(0, 5); 
+        System.out.println("Substring from index 7: " + subStr);
+        System.out.println("Substring from index 0 to 5: " + subStr2);
+    }
+}
