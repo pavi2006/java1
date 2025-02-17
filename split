@@ -1,0 +1,10 @@
+public class SplitExample {
+    public static void main(String[] args) {
+        String str = "Apple,Banana,Cherry,Date";
+        String[] fruits = str.split(",");
+        System.out.println("Fruits:");
+        for (String fruit : fruits) {
+            System.out.println(fruit);
+        }
+    }
+}
